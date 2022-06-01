@@ -145,7 +145,7 @@ void printArray(int *a) //배열 출력
 		printf("a[%02d] ", i);//0: 채워질 문자. 2: 총 자리수
 	printf("\n");
 	for(int i = 0; i < MAX_ARRAY_SIZE; i++)
-		printf("%5d ", a[i]);
+		printf("%5d ", a[i]); //5개의 칸을 만들어 놓고 오른쪽으로 정렬하여 출력
 	printf("\n");
 }
 
