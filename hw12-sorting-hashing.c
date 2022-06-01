@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define MAX_ARRAY_SIZE			13	/* prime number */
+#define MAX_ARRAY_SIZE           13
 #define MAX_HASH_TABLE_SIZE 	MAX_ARRAY_SIZE
 
 /* 필요에 따라 함수 추가 가능 */
@@ -19,13 +19,13 @@ int quickSort(int *a, int n); //퀵정렬
 
 
 /* hash code generator, key % MAX_HASH_TABLE_SIZE */
-int hashCode(int key);
+int hashCode(int key); //해시코드 생성 함수
 
 /* array a에대 한 hash table을 만든다. */
-int hashing(int *a, int **ht);
+int hashing(int *a, int **ht); //해시테이블 생성 함수
 
 /* hash table에서 key를 찾아 hash table의 index return */
-int search(int *ht, int key);
+int search(int *ht, int key); //해시테이블에서 key 값 찾음
 
 
 int main()
